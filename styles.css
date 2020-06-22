@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'MuseoModerno', cursive;
+
+}
+
+
+.wraper{
+  height: 100%;
+}
+/* play btn *******************/
+.play-btn {
+  text-align: center;
+  padding: 7% 5%;
+
+  position: absolute;
+  left: 35%;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+
+  background-color: white;
+  width: 30%;
+  height: 17%;
+  border: none;
+  border-radius: 50%;
+
+   box-shadow: 0 0 15px #9C9C9C;
+   cursor: pointer;
+}
+
+#play-btn{
+  left: 40%;
+
+  padding: 0.6rem;
+  font-size: 2rem;
+  height: 10%;
+  width: 20%;
+}
+
+.play-btn h1{
+  line-height: 150%;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+/* the gane buttons */
+.game {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.red {
+  width: 100%;
+  background-color: #EF2F25ed;
+}
+
+.green {
+  background-color: #66BD55;
+}
+
+.blue {
+  background-color: #25AAEA;
+}
+
+.yellow {
+  background-color: #FAEF38;
+}
+/* game over text */
+.game p{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  display: none;
+}
+.lvl{
+  display: none;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding-top: 48px;
+
+}
+/* press buttons */
+.red-pressed{
+  background-color: #F08C87;
+}
+.green-pressed{
+  background-color: #9FE492;
+
+}
+.blue-pressed{
+  background-color: #89D0F2;
+
+}
+.yellow-pressed{
+  background-color: #FEF9A6;
+
+}
+footer{
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  left: 35%
+}
+footer a{
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
